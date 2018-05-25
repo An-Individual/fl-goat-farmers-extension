@@ -1,0 +1,22 @@
+#flgf-value{
+	font-weight: bold;
+	text-align: center;
+}
+
+.flgf-clickable{
+	cursor: pointer;
+}
+
+.flgf-excluded{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.flgf-reserve-value{
+	font-weight: bold;
+	float: right;
+}
+
+.flgf-reserve-btn{
+	margin-right: 5px;
+}
