@@ -8,7 +8,7 @@
       "matches": ["http://fallenlondon.storynexus.com/Gap/Load*"],
       "css": ["flgf-styles.css"],
       "js": ["flgf-extension.js"],
-	  "run_at":"document_end"
+      "run_at":"document_end"
     }
   ]
 }
