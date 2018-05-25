@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Fallen London Goat Farmer's Extension",
+  "description": "This extension calculates and displays your total wealth each time you visit the Bazaar page in Fallen London.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://fallenlondon.storynexus.com/Gap/Load*"],
+      "css": ["flgf-styles.css"],
+      "js": ["flgf-extension.js"],
+	  "run_at":"document_end"
+    }
+  ]
+}
